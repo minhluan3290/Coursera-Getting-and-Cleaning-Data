@@ -6,7 +6,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 Variable name |	Description
 --------------|-------------
-subject	      |ID of the 30 volunteers who performed the activity. Its range is from 1 to 30. 
+subject	      |30 volunteers who performed the activity. ID range is from 1 to 30. 
+
 ## **Activity**
 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
@@ -14,12 +15,12 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 Variable name	|Description
 ----------------|-------------------
 activity	|6 levels of activity type that the 30 volunteers who performed the activity:
-|1. WALKING
-|2. WALKING_UPSTAIRS
-|3. WALKING_DOWNSTAIRS
-|4. SITTING
-|5. STANDING
-|6. LAYING
+                |1. WALKING
+                |2. WALKING_UPSTAIRS
+                |3. WALKING_DOWNSTAIRS
+                |4. SITTING
+                |5. STANDING
+                |6. LAYING
 
 ##**Features**
 
@@ -58,7 +59,7 @@ The set of variables that were estimated from these signals are:
 * mean(): Mean value
 * std(): Standard deviation
 
-## **68 combined Variable name used in the dataset:**
+## **Combined Variable name used in the dataset:**
 
 * timeBodyAccelerometer-mean()-X
 * timeBodyAccelerometer-mean()-Y
