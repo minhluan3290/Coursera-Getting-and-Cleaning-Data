@@ -1,5 +1,5 @@
----
-<h1>Getting and cleaning data<h1>
+
+<h1>**Getting and cleaning data**<h1>
 
 <p>The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.<p>  
 
@@ -18,5 +18,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+<h1>**Steps to produce tidy data**<h1>
+* Details of the R code is included in run_analysis.R
+* The step required by the project are also addressed in run_analysis.R with code
+* The codebook.md provides descriptions of the variable and data frame
 
----
+<h1>**Product**<h1>
+* The tidydata.txt will be produced after running the run_analysis.R
